@@ -303,6 +303,9 @@ extended_regression:
         crimson: true
       build:
         - ibm
+    - name: " Tier-2 RGW ms s3 restore.yaml"
+      suite: suites/tentacle/rgw/rgw_ms_s3_restore.yaml
+      global-conf: conf/tentacle/rgw/rgw_multisite.yaml
 
 extended_regression_2:
   metadata:
